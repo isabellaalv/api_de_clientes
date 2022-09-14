@@ -7,7 +7,7 @@ class ClienteViewSet(viewsets.ModelViewSet):
 
     queryset = Cliente.objects.all()
     serializer_class = ClienteSerializer
-    http_method_names = ['get', 'post', 'put']
+    http_method_names = ['get', 'post', 'put', 'delete']
 
 
 class ListaCliente(generics.ListAPIView):

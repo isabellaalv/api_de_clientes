@@ -1,5 +1,5 @@
 from rest_framework import viewsets, generics
-from cliente.servicer.serializer import ClienteSerializer
+from cliente.dao.serializer import ClienteSerializer
 from cliente.models.models import Cliente
 
 

@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from cliente.models import Cliente
+from cliente.models.models import Cliente
 
 
 class cliente(admin.ModelAdmin):

@@ -1,6 +1,6 @@
 from rest_framework import viewsets, generics
-from cliente.serializer import ClienteSerializer
-from cliente.models import Cliente
+from cliente.servicer.serializer import ClienteSerializer
+from cliente.models.models import Cliente
 
 
 class ClienteViewSet(viewsets.ModelViewSet):
